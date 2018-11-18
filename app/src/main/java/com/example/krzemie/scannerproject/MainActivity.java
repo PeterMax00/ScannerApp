@@ -54,4 +54,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void xd(){
+
+        int a = 1;
+        a = a -10;
+    }
+
 }
