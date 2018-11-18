@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_save_code"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SaveCode">
+
+    <TextView
+        android:id="@+id/barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barcode Number:"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/inputProductCode"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:height="30pt"
+        android:textColor="#fff"
+        android:inputType="" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name:"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/inputProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="30pt"
+        android:layout_gravity="top"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/inputQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="30pt"
+        android:inputType="number"
+        android:text="1"
+        android:layout_gravity="top"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/datePickedLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expiration Date"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/datePicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:height="30pt"
+        android:textSize="10pt"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/pickDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="5pt"
+        android:text="Pick Date" />
+
+    <Button
+        android:id="@+id/insertProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="30pt"
+        android:text="Insert" />
+
+</LinearLayout>
